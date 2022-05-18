@@ -27,7 +27,6 @@ export function LoginBox(){
                 </form>
                  
                  <a href="" className={styles.esqueceuSenha}>Esqueceu Senha?</a>
-                 <br />
                  <a type="button" href="" className={styles.btn_login}>Login</a>
                
             </div>

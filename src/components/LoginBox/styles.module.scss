@@ -40,22 +40,25 @@
             text-align: center;
        }
 
-       .btn_login{
-           align-items: center;
-           margin-top: 10px;
-           display:flex;
-           color: antiquewhite;
-           background: #3CB371;
-           width: 310px;
-           height: 35px;
-           text-decoration: none;
-         
-       }
-
        .esqueceuSenha{
            color: black;
            font-weight: bold;
            text-decoration: none;
+       }
+
+       
+       .btn_login{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        padding-left: 140px;
+        color: antiquewhite;
+        background: #3CB371;
+        width: 170px;
+        height: 35px;
+        text-decoration: none;
+      
        }
 
     }
