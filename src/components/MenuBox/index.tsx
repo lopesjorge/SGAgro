@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 export function MenuBox(){
     return(
         <div className={styles.MenuBox}>
-           
+
            <ul>
                 <li>
                     <a href="">Motorista</a>
