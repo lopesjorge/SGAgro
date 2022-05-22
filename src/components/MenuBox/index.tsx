@@ -1,35 +1,19 @@
 import styles from './styles.module.scss'
 
+
 export function MenuBox(){
     return(
-        <div className={styles.MenuBox}>
+        <div className={styles.container_menu}>
 
            <ul>
-                <li>
-                    <a href="">Motorista</a>
-                </li>
-
-                <li>
-                     <a href="">Veículo</a>
-                </li>
-
-                <li>
-                     <a href="">Agricultor</a>
-                </li>
-
-                <li>
-                     <a href="">Propriedade Rural</a>
-                </li>
-
-                <li>
-                     <a href="">Colheitas</a>
-                </li>
-
-                <li>
-                     <a href="">logout</a>
-                </li>
+            <li className={styles.menu_itens}><a href="#">Agricultor</a></li>
+            <li className={styles.menu_itens}><a href="#">Motorista</a></li>
+            <li className={styles.menu_itens}><a href="#">Veículo</a> </li>
+            <li className={styles.menu_itens}><a href="#"> Propriedades</a></li>
+            <li className={styles.menu_itens}><a href="#"> Colheitas</a></li>
+            <li className={styles.menu_itens}><a href="#">Dados</a></li>
+            <li className={styles.menu_itens}><a href="#">Logout</a></li>
            </ul>
-            
         </div>
     )
 }

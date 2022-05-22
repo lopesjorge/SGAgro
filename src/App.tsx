@@ -9,8 +9,7 @@ export function App() {
 
   return (
 
-<LoginBox></LoginBox>
- 
+<LoginBox/>
    
     )
 }
