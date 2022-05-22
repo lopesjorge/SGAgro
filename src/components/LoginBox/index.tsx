@@ -12,7 +12,7 @@ export function  LoginBox(){
                            <form className={styles.login_form}>
                                
                                <span className={styles.title_login_img}>
-                                   <img src="/src/image/SGAgro- logo-L.svg" alt="image-logo" />
+                                   <img src="/src/imagens/SGAgro- logo-L.svg" alt="image-logo" />
                                </span>
 
                                <span className={styles.title_login}>
