@@ -3,40 +3,142 @@
    
     width: 83%;
     height: 100%;
-
+    
     padding-left: 17%;
 
+    font-family: 'Poppins';
+   
+    display: inline-block;
+
     .texto1{
-        text-align: center;
+        text-align:left;
         font-family: 'Poppins';
         font-weight: lighter;
+        font-size: 22px;
     }
 
-    .input_busca{
-        input{
-            border-radius: 10px;
-            width: 50%;
-            height: 25px;
-            
-            margin-left: 5%;
-            text-align: center;
-        }
-
+    .form_cad_Agricultor{
+          
+        font-family: 'Poppins';
+        display: flexbox;
         
-        button{
-            color: azure;
-            background:#27AE60;
-            border-radius: 10px;
-            border: none;
+        margin-left: 20px;
 
-            margin-left: 30px;
-            width: 20%;
-            height: 30px;
-            font-size: 15px;
+        input{
+            width: 400px;
+            height: 25px;
+            margin-top: 5px;
         }
+
+        .container_dados_pessoais{
+           
+        .text_dados_pessoais{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        label{
+            font-weight: bold;
+            font-size: 15px;
+            margin-right: 5px;
+        }
+
+        .input_cpf_agricultor{
+            margin-left: 35px;
+        }
+
+        .input_agricultor{
+            margin-left: 18px;
+        }
+
+        .telefone{
+            
+            .input_telefone_dd{
+                  width: 35px;
+                  height: 25px;
+            }
+
+            .input_telefone_number{
+                margin-left: 10px;
+                width: 150px;
+                height: 25px;
+            }
+          }
+       }
+
+       .container_endereço{
+
+           .text_endereco{
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          label{
+            font-weight: bold;
+            font-size: 15px;
+            margin-right: 5px;
+        }
+
+        .input_cep{
+            margin-left: 35px;
+        }
+
+        .input_cidade{
+            margin-left: 8px;
+        }
+
+        .input_bairro{
+            margin-left: 19px;
+        }
+
+        .input_rua{
+            margin-left: 35px;
+        }
+
+        .input_numero_casa{
+            margin-left: 5px;
+        }
+     }
+
+     .container_tipo_agricultura{
+
+        .text_tipo_agricultura{
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .select_agricultura{
+            margin-bottom: 10px;
+        }
+     } 
+   }
+
+   .container_button{
+    
+    margin-top: 15px;
+    margin-left: 160px;
+
+    .salvar{
+        width: 100px;
+        height: 30px;
+        margin-right: 20px;
+        color: azure;
+        background-color: #0000FF;
+        border: none;
+    }
+    .cancelar{
+        width: 100px;
+        height: 30px;
+        margin-right: 20px;
+        color: azure;
+        background: #ff0808 ;
+        border: none;
     }
 
-
-
-    }
+   }
+}
     
