@@ -14,21 +14,21 @@ export function Page_Cad_Motorista(){
             </div>
                 <div>
                     <label htmlFor="">Nome:</label>
-                    <input className={styles.input_motorista} type="text" placeholder=' Informe o nome'/>
+                    <input className={styles.input_motorista} type="text" placeholder=' Informe o nome' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Matrícula:</label>
-                    <input className={styles.input_matricula} type="text" placeholder=' Informe o CPF'/>
+                    <input className={styles.input_matricula} type="text" placeholder=' Informe o CPF' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">CNH:</label>
-                    <input className={styles.input_cnh} type="text" placeholder=' Informe o numero da CNH'/>
+                    <input className={styles.input_cnh} type="text" placeholder=' Informe o numero da CNH' required/>
                     
                     <label htmlFor="">Categoria</label>
 
-                    <select name="cnh" id="cnh">
+                    <select name="cnh" id="cnh" required>
                         <option value="A">A</option>
                         <option value="B">B</option>
                         <option value="C">C</option>
@@ -41,8 +41,8 @@ export function Page_Cad_Motorista(){
 
                 <div className={styles.telefone}>
                     <label htmlFor="">Telefone:</label>
-                    <input className={styles.input_telefone_dd} type="text" placeholder=' DDD'/>
-                    <input className={styles.input_telefone_number} type="text" placeholder=' Informe o telefone '/>
+                    <input className={styles.input_telefone_dd} type="text" placeholder=' DDD' required/>
+                    <input className={styles.input_telefone_number} type="text" placeholder=' Informe o telefone' required/>
                 </div>
         </div>
 
@@ -55,27 +55,27 @@ export function Page_Cad_Motorista(){
                 
                 <div>
                     <label htmlFor="">CEP:</label>
-                    <input className={styles.input_cep} type="text" placeholder='Informe o CEP'/>
+                    <input className={styles.input_cep} type="text" placeholder='Informe o CEP' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Cidade:</label>
-                    <input className={styles.input_cidade} type="text" placeholder='Informe o nome da cidade'/>
+                    <input className={styles.input_cidade} type="text" placeholder='Informe o nome da cidade' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Bairro:</label>
-                    <input className={styles.input_bairro} type="text" placeholder='Informe o nome do bairro'/>
+                    <input className={styles.input_bairro} type="text" placeholder='Informe o nome do bairro' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Rua:</label>
-                    <input className={styles.input_rua} type="text" placeholder='Informe o nome da rua '/>
+                    <input className={styles.input_rua} type="text" placeholder='Informe o nome da rua' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Número:</label>
-                    <input className={styles.input_numero_casa} type="text" placeholder='Informe o número da casa'/>
+                    <input className={styles.input_numero_casa} type="text" placeholder='Informe o número da casa' required/>
                 </div>
 
         </div>

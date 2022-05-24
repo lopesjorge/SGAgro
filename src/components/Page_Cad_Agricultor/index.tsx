@@ -19,13 +19,13 @@ export function Page_Cad_Agricultor(){
 
                 <div>
                     <label htmlFor="">CPF:</label>
-                    <input className={styles.input_cpf_agricultor} type="text" placeholder=' Informe o CPF'/>
+                    <input className={styles.input_cpf_agricultor} type="text" placeholder=' Informe o CPF' required/>
                 </div>
 
                 <div className={styles.telefone}>
                     <label htmlFor="">Telefone:</label>
-                    <input className={styles.input_telefone_dd} type="text" placeholder=' DDD'/>
-                    <input className={styles.input_telefone_number} type="text" placeholder=' Informe o telefone '/>
+                    <input className={styles.input_telefone_dd} type="text" placeholder=' DDD' required/>
+                    <input className={styles.input_telefone_number} type="text" placeholder=' Informe o telefone' required/>
                 </div>
         </div>
 
@@ -38,27 +38,27 @@ export function Page_Cad_Agricultor(){
                 
                 <div>
                     <label htmlFor="">CEP:</label>
-                    <input className={styles.input_cep} type="text" placeholder='Informe o CEP'/>
+                    <input className={styles.input_cep} type="text" placeholder='Informe o CEP' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Cidade:</label>
-                    <input className={styles.input_cidade} type="text" placeholder='Informe o nome da cidade'/>
+                    <input className={styles.input_cidade} type="text" placeholder='Informe o nome da cidade' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Bairro:</label>
-                    <input className={styles.input_bairro} type="text" placeholder='Informe o nome do bairro'/>
+                    <input className={styles.input_bairro} type="text" placeholder='Informe o nome do bairro' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Rua:</label>
-                    <input className={styles.input_rua} type="text" placeholder='Informe o nome da rua '/>
+                    <input className={styles.input_rua} type="text" placeholder='Informe o nome da rua' required/>
                 </div>
 
                 <div>
                     <label htmlFor="">Número:</label>
-                    <input className={styles.input_numero_casa} type="text" placeholder='Informe o número da casa'/>
+                    <input className={styles.input_numero_casa} type="text" placeholder='Informe o número da casa' required/>
                 </div>
 
         </div>
@@ -69,7 +69,7 @@ export function Page_Cad_Agricultor(){
                 </div>
 
                 <div className={styles.select_agricultura}>
-                    <select name="tipo_agricultura" id="agricultura">
+                    <select name="tipo_agricultura" id="agricultura" required>
                          <option value="Grãos">Grãos</option>
                          <option value="Legumes">Legumes</option>
                          <option value="Hortaliças">Hortaliças</option>
