@@ -20,15 +20,12 @@ export function  LoginBox(){
                                </span>
 
                                <div className={styles.wrap_input}>
-                                   <input className={ email !== "" ? styles.has_value : styles.input } type="email" value={email}
-                                    onChange={(e) => setEmail(e.target.value)}/>
+                                   <input className={styles.input} type="email"/>
                                    <span className={styles.focus_input} data-placeholder= 'Email'></span>
                                </div>
 
                                <div className={styles.wrap_input}>
-                                   <input className={password!== "" ? styles.has_value : styles.input} type="password"
-                                    value={password}
-                                    onChange={(e) => setPassword(e.target.value)}/>
+                                   <input className={styles.input} type="password"/>
                                    <span className={styles.focus_input} data-placeholder= 'Password'></span>
                                </div>
 
